@@ -179,11 +179,6 @@ div.end_div a:hover{
 	color: orange;
 }
 .blog-one {
-	background-image: url(images/WEB\ KIWI-04\ \(2\).png);
-	background-size:cover;
-	background-repeat: no-repeat;
-    height: 250px;
-    padding-bottom: 100px;
     color: #943894;
     margin-left: 10px;
 
@@ -247,9 +242,9 @@ p#sub_title span{
 /*footer widgets*/
 .btn_content {
     background: -webkit-linear-gradient(-225deg, #EF64A4 0%, #EF64A4 48%, #943894 100%);
-    width: 150px;
+    width: 100px;
     border-radius: 10px;
-    font-size: 20px;
+    font-size: 16px;
     color:white;
 }
 .btn_content:hover {
