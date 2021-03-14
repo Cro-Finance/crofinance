@@ -84,6 +84,17 @@ nav{
 	nav ul{
 		background-color: #E360D2;
 	}
+    #particles-js{
+        height:2600px !important;
+    }
+    .site-footer{
+        position: relative !important;
+        overflow: hidden;
+        width: 100%;
+        height:250px !important;
+        display:block;
+        bottom: 0;
+    }
 }
 .nav-link{
 	color: white !important;
@@ -222,10 +233,12 @@ p#sub_title span{
 }
 .site-footer {
     background: -webkit-linear-gradient(-225deg, #B88DF8 0%, #B88DF8 48%, #E360D2 100%);
-    position: relative;
+    position: fixed;
     overflow: hidden;
-    opacity: 0.8;
-    min-width: fit-content;
+    display: block;
+    bottom: 0;
+    width: 100%;
+    height:120px;
 }
 
 
@@ -242,7 +255,7 @@ p#sub_title span{
 /*footer widgets*/
 .btn_content {
     background: -webkit-linear-gradient(-225deg, #EF64A4 0%, #EF64A4 48%, #943894 100%);
-    width: 100px;
+    width: 120px;
     border-radius: 10px;
     font-size: 16px;
     color:white;
@@ -340,3 +353,13 @@ p#sub_title span{
     text-decoration: none;
     cursor: pointer;
   }
+  #particles-js {
+    width: 100%;
+	height: 100%;
+    margin: 0 auto;
+    background-color: #000022;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    position: absolute;
+} 
