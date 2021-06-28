@@ -79,6 +79,8 @@ nav{
 	nav ul{
 		background-color: none;
 	}
+
+
 }
 @media (max-width: 991px) {
 	nav ul{
@@ -87,6 +89,9 @@ nav{
     #particles-js{
         height:2400px !important;
     }
+    #particles-js1{
+        height:1352px !important;
+    }
     .site-footer{
         position: relative !important;
         overflow: hidden;
@@ -94,6 +99,21 @@ nav{
         height:300px !important;
         display:block;
         bottom: 0;
+    }
+    #buy-cro{
+        font-size: 18px;
+    }
+    #maqr{
+        font-size: 14px;
+    }
+    #note{
+        font-size:12px;
+    }
+    #admin-deposit{
+        font-size: 20px;
+    }
+    #for-sale{
+        font-size: 20px;
     }
 }
 .nav-link{
@@ -242,9 +262,35 @@ p#sub_title span{
     height:75px;
 }
 
-
-
-
+.for-sale {
+    font-size: 25px; 
+    color: #E360D2;
+    border: 1px solid #E360D2;
+    background-color: #fff;
+}
+.admin-deposit {
+    font-size: 25px; 
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    background-image: linear-gradient(#B88DF8, #E360D2);
+}
+.copyToClipboard {
+    cursor: pointer;
+}
+.maqr{
+    padding-left:20px; 
+    font-size: 25px;
+    background-color: #fff;
+}
+.buy-cro{
+    font-size: 25px;
+    color: black;
+}
+.note{
+    font-size:15px;
+    font-style: italic;
+}
 .site-footer .container {
     position: relative;
     z-index: 20;
@@ -316,6 +362,7 @@ p#sub_title span{
     .footer-widget__about {
         padding-right: 44px;
     }
+    
 }
 
 .site-footer__bottom .inner-container>p {
@@ -364,3 +411,13 @@ p#sub_title span{
     background-repeat: no-repeat;
     position: absolute;
 } 
+    #particles-js1 {
+        width: 100%;
+        height: 120%;
+        margin: 0 auto;
+        background-color: #e3e3e3;
+        background-size: cover;
+        background-position: 50% 50%;
+        background-repeat: no-repeat;
+        position: absolute;
+    } 
