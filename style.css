@@ -115,6 +115,27 @@ nav{
     #for-sale{
         font-size: 20px;
     }
+    #title-private{
+        font-size:28px;
+    }
+    #smalltext{
+        font-size:16px;
+    }
+    #clockdivmb{
+        font-size: 40px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	    color: #E360D2;
+    }
+    #btn-cms{
+        font-size: 25px; 
+        color: #fff;
+        font-weight: bold;
+        text-align: center;
+        background-image: linear-gradient(#B88DF8, #E360D2);
+        height: 50px;
+        width: 300px;
+    
+    }
 }
 .nav-link{
 	color: white !important;
@@ -153,12 +174,25 @@ nav{
 	text-align: justify;
 }
 .bg_network{
-	/*background-image: url('images/WEB\ KIWI-03.png');*/
-    background-color: #000022;
+	background-image: url('images/BG\ CRO.png');
 	background-repeat: no-repeat;
+    background-size: cover;
 	background-size: 100% 100%;
 	border: none;
 	margin-left: -1px;
+}
+.bg_cronus{
+	background-image: url('images/Group\ 1158.png');
+	background-repeat: no-repeat;
+    background-size: cover;
+	background-size: 100% 100%;
+	border: none;
+	margin-left: -1px;
+}
+.title-private{
+    font-size: 40px;
+    color: #E360D2;
+    text-align: center;
 }
 .icon_contact{
 	padding: 20px 0 0;
@@ -225,14 +259,31 @@ p#sub_title span{
     margin-top: 0px;
 }
 #clockdiv{
-	font-family: sans-serif;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 	color: #fff;
 	display: inline-block;
-	font-weight: 100;
+	font-weight: normal;
 	text-align: center;
-	font-size: 35px;
+	font-size: 60px;
 }
-
+#clockdivmb{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	color: #E360D2;
+	display: inline-block;
+	font-weight: normal;
+	text-align: center;
+	font-size: 60px;
+}
+.smalltext{
+    font-size: 20px; 
+    font-weight: bold;
+}
+.textonly{
+    color: #fff; 
+    font-size: 24px; 
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 #clockdiv > div{
 	padding: 10px;
 	border-radius: 3px;
@@ -240,16 +291,9 @@ p#sub_title span{
 }
 
 #clockdiv div > span{
-	height: 70px;
-	width: 70px;
 	padding: 5px;
-	border-radius: 50%;
-	border-style: solid;
 	border-width: 5px;
-	/*,#22d8d8*/
-	border-color: #044ffb;
-	background: white;
-	color: red;
+	color: #E360D2;
 	display: inline-block;
 }
 .site-footer {
@@ -267,7 +311,19 @@ p#sub_title span{
     color: #E360D2;
     border: 1px solid #E360D2;
     background-color: #fff;
+    font-weight: 400;
 }
+.btn-cms{
+    font-size: 25px; 
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    background-image: linear-gradient(#B88DF8, #E360D2);
+    width: 40%;
+    height: 50px;
+
+}
+
 .admin-deposit {
     font-size: 25px; 
     color: #fff;
