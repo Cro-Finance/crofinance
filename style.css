@@ -87,7 +87,7 @@ nav{
 		background-color: #E360D2;
 	}
     #particles-js{
-        height:2500px !important;
+        height:2600px !important;
     }
     #particles-js1{
         height:1352px !important;
@@ -459,7 +459,7 @@ p#sub_title span{
   }
   #particles-js {
     width: 100%;
-	height: 115%;
+	height: 123%;
     margin: 0 auto;
     background-color: #e3e3e3;
     background-size: cover;
